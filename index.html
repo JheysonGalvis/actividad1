@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa Conceptual</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    .mapa {
+      position: relative;
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #fff;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .nodo {
+      display: inline-block;
+      background: #dfe6e9;
+      border: 2px solid #b2bec3;
+      border-radius: 10px;
+      padding: 15px 20px;
+      margin: 10px;
+      font-weight: bold;
+      width: 180px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .nodo-central {
+      background: #74b9ff;
+      color: #fff;
+      border-color: #0984e3;
+    }
+    .linea {
+      width: 2px;
+      height: 50px;
+      background: #636e72;
+      margin: 0 auto;
+    }
+    .linea-horizontal {
+      width: 100px;
+      height: 2px;
+      background: #636e72;
+      display: inline-block;
+    }
+    .descripcion {
+      font-size: 14px;
+      color: #2d3436;
+      background: #f9f9f9;
+      border: 1px solid #b2bec3;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 10px auto;
+      width: 200px;
+      text-align: justify;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Mapa Conceptual: Factores que influyen en el Comportamiento Humano</h1>
+  <div class="mapa">
+    <!-- Nodo principal -->
+    <div class="nodo nodo-central">Comportamiento Adaptativo</div>
+    <div class="linea"></div>
+
+    <!-- Conexiones horizontales -->
+    <div style="display: flex; justify-content: center; align-items: center;">
+      <div class="linea-horizontal"></div>
+      <div class="linea-horizontal"></div>
+      <div class="linea-horizontal"></div>
+      <div class="linea-horizontal"></div>
+    </div>
+
+    <!-- Nodos secundarios y descripciones -->
+    <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+      <div>
+        <div class="nodo">Evolución</div>
+        <div class="descripcion">
+          Según los textos, la evolución explica cómo el comportamiento humano tiene raíces biológicas. Estas influyen en nuestras acciones y permiten adaptaciones necesarias para la supervivencia.
+        </div>
+      </div>
+      <div>
+        <div class="nodo">Cultura</div>
+        <div class="descripcion">
+          La cultura, como señala Georg Simmel, influye en los estilos de vida y comportamientos al moldear valores, normas y formas de interacción social que guían nuestras decisiones.
+        </div>
+      </div>
+      <div>
+        <div class="nodo">Medio Ambiente</div>
+        <div class="descripcion">
+          El entorno físico y social proporciona estímulos y recursos, modificando cómo los individuos se comportan y desarrollan respuestas adaptativas según sus condiciones.
+        </div>
+      </div>
+      <div>
+        <div class="nodo">Lenguaje</div>
+        <div class="descripcion">
+          Herramienta esencial que permite la comunicación y transmisión de cultura, facilitando comportamientos colectivos y la solución de problemas complejos en grupo.
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
